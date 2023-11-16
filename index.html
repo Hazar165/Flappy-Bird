@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Flappy Bird</title>
+</head>
+
+<body>
+	<div class="wrapper">
+       <p id="score">SCORE:</p>
+		 <p id="best_score">BEST SCORE:</p>
+	</div>
+	<div class="random">
+		<canvas id="canvas" width="288" height="512"></canvas>
+	</div>
+	<div class="control">
+		<input type="button" onclick="game_pause()" value="PAUSE" class="btn" >
+	</div>
+	<script src="flappy.js" defer></script>
+</body>
+
+</html>
